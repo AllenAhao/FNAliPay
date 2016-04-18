@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FNAliPay_Example', :exclusive => true do
+  pod 'FNAliPay', :path => '../'
+end
+
+target 'FNAliPay_Tests', :exclusive => true do
+  pod 'FNAliPay', :path => '../'
+
+end

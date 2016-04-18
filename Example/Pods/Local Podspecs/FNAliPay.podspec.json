@@ -1,0 +1,38 @@
+{
+  "name": "FNAliPay",
+  "version": "0.1.0",
+  "summary": "AliPay.",
+  "description": "it integrated Ali For Pay.",
+  "homepage": "https://www.feiniu.com",
+  "license": "MIT",
+  "authors": {
+    "Allen": "cd33.feiniu.com"
+  },
+  "source": {
+    "git": "https://github.com/ZSHAhao/AliPay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resources": "Pod/Assets/*",
+  "vendored_frameworks": "Pod/Vendors/AlipaySDK.framework",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "Foundation",
+    "UIKit",
+    "CoreGraphics",
+    "CFNetwork",
+    "CoreMotion"
+  ],
+  "libraries": [
+    "c++",
+    "z"
+  ]
+}

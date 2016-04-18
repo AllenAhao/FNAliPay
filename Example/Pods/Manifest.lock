@@ -1,0 +1,14 @@
+PODS:
+  - FNAliPay (0.1.0)
+
+DEPENDENCIES:
+  - FNAliPay (from `../`)
+
+EXTERNAL SOURCES:
+  FNAliPay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FNAliPay: 75c3c6eca43bb4d6db52b099a8f9ce85fc262ac8
+
+COCOAPODS: 0.39.0

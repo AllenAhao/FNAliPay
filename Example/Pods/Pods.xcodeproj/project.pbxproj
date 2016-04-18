@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11084DE47F03B6E607D5B969184238E6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E15E413BF8657E9782E9554034E4D33 /* CoreTelephony.framework */; };
+		18D3738F7597A14BAFDA7A3E05DD556E /* FNAliPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4ADABDB50E81A4212CC4D43CF15761 /* FNAliPay.m */; };
+		2348894CC9CFFDBCB7247F989FA585CF /* Pods-FNAliPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EBBAA35BD941C38B58026C14F93E04 /* Pods-FNAliPay_Tests-dummy.m */; };
+		2A171F2D9AD34AC78A5B439368515FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A93A2D1D574AFB6B1BA063718ED045 /* UIKit.framework */; };
+		3E239335FEDFFF8717F3F717D4DE2770 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8CFCF99FD39391A74057A5D8CEC816 /* CFNetwork.framework */; };
+		41B897CA0DE37ECA32214C9D04651610 /* FNAliPayParaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA79D5A7017A61DCC9CB1733493D018 /* FNAliPayParaModel.m */; };
+		515804EC974A4810949E0202A6BCD6A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA42A6BD99AA8ED5147F4F4F1DECB1B /* Foundation.framework */; };
+		5CA7D595672E6E37714A56B78AFF8886 /* Pods-FNAliPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 989AE1D7B50B91BADDC2CD8228C91B3A /* Pods-FNAliPay_Example-dummy.m */; };
+		62105BC438702A765DD9DEDE79BFD2AB /* FNAliPayParaModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A8771E76C3CE0D3FEF6637D0DA24196 /* FNAliPayParaModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69FE0FF73239B86B0BF7D833837F5129 /* FNAliPayResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B0A96C194960233B1EFFC19990D125 /* FNAliPayResultModel.m */; };
+		80D139B0AC0C48176B2981B91A077F84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA42A6BD99AA8ED5147F4F4F1DECB1B /* Foundation.framework */; };
+		B082D22954DFE5CBD23C71C056504E3A /* FNAliPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50309418D191F25F091A95329000D536 /* FNAliPay-dummy.m */; };
+		B156646378AE5017CD112F4074386F65 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A65084BA7A45B2ED11E7C2871ADADC /* CoreText.framework */; };
+		BCC2D84BBFD22B1BD7440CEEEA12DFD9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB8A4942062F812E11FC7B8764C0884 /* SystemConfiguration.framework */; };
+		C202EC467886ADDA3C5C7482CB096CD1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8241C27B8554EE32C76DE91154FF7940 /* CoreMotion.framework */; };
+		C5DE8F7FD314922B355A1975C3557968 /* FNAliPayResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A901E629F05EF33349AF4424955515A3 /* FNAliPayResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2DA95C5787AB8B87871468F094BB60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA42A6BD99AA8ED5147F4F4F1DECB1B /* Foundation.framework */; };
+		D81912051FF914739AF75D924203D874 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB5A4395A817E3B1F14A740E3388A53 /* CoreGraphics.framework */; };
+		D9A2C689104F681BA2813C9C4C4BAB0F /* FNAliPay.h in Headers */ = {isa = PBXBuildFile; fileRef = B01782CDBED66733A202012A9257EAE2 /* FNAliPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9FBCAB1D662CD87EC066BEC9CEA488E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E7DEAE363546E1E0E1A65EF8535898 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E0A61BBA602F2FB9C68378D2CE6E2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52AD8B236A68979F1002E3623B03F28A;
+			remoteInfo = FNAliPay;
+		};
+		4BF9206BAF2446AAD4062852D4429E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52AD8B236A68979F1002E3623B03F28A;
+			remoteInfo = FNAliPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01397D865B78DCFD5BD369AF043E3102 /* Pods-FNAliPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FNAliPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		05D73A05F36AAF49D57F6E5437B6868D /* libFNAliPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFNAliPay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2796D578B11A035CBE2840CB3ABEED /* Pods-FNAliPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FNAliPay_Example-resources.sh"; sourceTree = "<group>"; };
+		1252F403B60F8D20D69633BAB61976BD /* Pods-FNAliPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FNAliPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24EBBAA35BD941C38B58026C14F93E04 /* Pods-FNAliPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FNAliPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		268CCD8ABCEBC314FD7B86B36B553890 /* Pods-FNAliPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FNAliPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2A8771E76C3CE0D3FEF6637D0DA24196 /* FNAliPayParaModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FNAliPayParaModel.h; sourceTree = "<group>"; };
+		2AA791640070347AB1FF232397C881C3 /* libPods-FNAliPay_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FNAliPay_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E5DBDC27B6ECA3319E2182A6E51028 /* Pods-FNAliPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FNAliPay_Tests-resources.sh"; sourceTree = "<group>"; };
+		420F2C25893C59452CC15472F0E74597 /* FNAliPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FNAliPay-prefix.pch"; sourceTree = "<group>"; };
+		475ADB0CCF33C75ED0F9E7D8D132A1C5 /* Pods-FNAliPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FNAliPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4A8CFCF99FD39391A74057A5D8CEC816 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		50309418D191F25F091A95329000D536 /* FNAliPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FNAliPay-dummy.m"; sourceTree = "<group>"; };
+		64166B21C0F3965052BB62AD006D7732 /* Pods-FNAliPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FNAliPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68EAF7597D700942D5041753A2303A8D /* Pods-FNAliPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FNAliPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB5A4395A817E3B1F14A740E3388A53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7B4ADABDB50E81A4212CC4D43CF15761 /* FNAliPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FNAliPay.m; sourceTree = "<group>"; };
+		7E15E413BF8657E9782E9554034E4D33 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		8241C27B8554EE32C76DE91154FF7940 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		85A65084BA7A45B2ED11E7C2871ADADC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		85B0A96C194960233B1EFFC19990D125 /* FNAliPayResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FNAliPayResultModel.m; sourceTree = "<group>"; };
+		8737F4679850B0A5BB1439172AA369CB /* Pods-FNAliPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FNAliPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		947CF5E4877FC067D2E17324705DD41E /* FNAliPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FNAliPay.xcconfig; sourceTree = "<group>"; };
+		96A93A2D1D574AFB6B1BA063718ED045 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		989AE1D7B50B91BADDC2CD8228C91B3A /* Pods-FNAliPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FNAliPay_Example-dummy.m"; sourceTree = "<group>"; };
+		9BA42A6BD99AA8ED5147F4F4F1DECB1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A1CE969D15C2CCF40DE186E935E9EDC2 /* Pods-FNAliPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FNAliPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A901E629F05EF33349AF4424955515A3 /* FNAliPayResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FNAliPayResultModel.h; sourceTree = "<group>"; };
+		B01782CDBED66733A202012A9257EAE2 /* FNAliPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FNAliPay.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0CAF66EA29F43BDD06735DC8DE59A1C /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		C8F5D4BDF2597A2EE3CFF3535A890D1B /* Pods-FNAliPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FNAliPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D100C0C2F9D48652814576C575D7393E /* libPods-FNAliPay_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FNAliPay_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF91D6D15E7A0130996FB5B5DA85862 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = Pod/Vendors/AlipaySDK.framework; sourceTree = "<group>"; };
+		DFA79D5A7017A61DCC9CB1733493D018 /* FNAliPayParaModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FNAliPayParaModel.m; sourceTree = "<group>"; };
+		EAB8A4942062F812E11FC7B8764C0884 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F713BEA14FCBD710DECE50AF4DBE8194 /* Alixpay.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Alixpay.bundle; sourceTree = "<group>"; };
+		F7E7DEAE363546E1E0E1A65EF8535898 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FBF4473DCC41A6CDF6287151FAE47111 /* Pods-FNAliPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FNAliPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9525FADF288191AB868FC510BF5BF32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2DA95C5787AB8B87871468F094BB60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65381DAD53438D1D730202A96662989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E239335FEDFFF8717F3F717D4DE2770 /* CFNetwork.framework in Frameworks */,
+				D81912051FF914739AF75D924203D874 /* CoreGraphics.framework in Frameworks */,
+				C202EC467886ADDA3C5C7482CB096CD1 /* CoreMotion.framework in Frameworks */,
+				11084DE47F03B6E607D5B969184238E6 /* CoreTelephony.framework in Frameworks */,
+				B156646378AE5017CD112F4074386F65 /* CoreText.framework in Frameworks */,
+				515804EC974A4810949E0202A6BCD6A4 /* Foundation.framework in Frameworks */,
+				D9FBCAB1D662CD87EC066BEC9CEA488E /* QuartzCore.framework in Frameworks */,
+				BCC2D84BBFD22B1BD7440CEEEA12DFD9 /* SystemConfiguration.framework in Frameworks */,
+				2A171F2D9AD34AC78A5B439368515FCE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAA98A1314EA0DE44860FF3DD43D32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D139B0AC0C48176B2981B91A077F84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21CE10E873B0F66BBA360F28C1D13446 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B01782CDBED66733A202012A9257EAE2 /* FNAliPay.h */,
+				7B4ADABDB50E81A4212CC4D43CF15761 /* FNAliPay.m */,
+				2A8771E76C3CE0D3FEF6637D0DA24196 /* FNAliPayParaModel.h */,
+				DFA79D5A7017A61DCC9CB1733493D018 /* FNAliPayParaModel.m */,
+				A901E629F05EF33349AF4424955515A3 /* FNAliPayResultModel.h */,
+				85B0A96C194960233B1EFFC19990D125 /* FNAliPayResultModel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39899FA4991005E6A69BD21217760093 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39899FA4991005E6A69BD21217760093 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4A8CFCF99FD39391A74057A5D8CEC816 /* CFNetwork.framework */,
+				6BB5A4395A817E3B1F14A740E3388A53 /* CoreGraphics.framework */,
+				8241C27B8554EE32C76DE91154FF7940 /* CoreMotion.framework */,
+				7E15E413BF8657E9782E9554034E4D33 /* CoreTelephony.framework */,
+				85A65084BA7A45B2ED11E7C2871ADADC /* CoreText.framework */,
+				9BA42A6BD99AA8ED5147F4F4F1DECB1B /* Foundation.framework */,
+				F7E7DEAE363546E1E0E1A65EF8535898 /* QuartzCore.framework */,
+				EAB8A4942062F812E11FC7B8764C0884 /* SystemConfiguration.framework */,
+				96A93A2D1D574AFB6B1BA063718ED045 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3B4981C6CB3E9B5C6C57736406E1DC02 /* Pods-FNAliPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				64166B21C0F3965052BB62AD006D7732 /* Pods-FNAliPay_Example-acknowledgements.markdown */,
+				A1CE969D15C2CCF40DE186E935E9EDC2 /* Pods-FNAliPay_Example-acknowledgements.plist */,
+				989AE1D7B50B91BADDC2CD8228C91B3A /* Pods-FNAliPay_Example-dummy.m */,
+				268CCD8ABCEBC314FD7B86B36B553890 /* Pods-FNAliPay_Example-frameworks.sh */,
+				0A2796D578B11A035CBE2840CB3ABEED /* Pods-FNAliPay_Example-resources.sh */,
+				01397D865B78DCFD5BD369AF043E3102 /* Pods-FNAliPay_Example.debug.xcconfig */,
+				8737F4679850B0A5BB1439172AA369CB /* Pods-FNAliPay_Example.release.xcconfig */,
+			);
+			name = "Pods-FNAliPay_Example";
+			path = "Target Support Files/Pods-FNAliPay_Example";
+			sourceTree = "<group>";
+		};
+		655529EEB33EBCA55BA154BD16336B5B /* FNAliPay */ = {
+			isa = PBXGroup;
+			children = (
+				B60E2B34A005085D6AFC8677C6E53ADA /* Frameworks */,
+				74147D2E005C43505D72556D7BC6D9F3 /* Pod */,
+				F958A51C94028A42B4F2A11B6E985FF1 /* Resources */,
+				AE2ED8161CBD427821D1EA36D08AEBF4 /* Support Files */,
+			);
+			name = FNAliPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		74147D2E005C43505D72556D7BC6D9F3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				21CE10E873B0F66BBA360F28C1D13446 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C3A9A428E792F37E44E800E47D7527DD /* Development Pods */,
+				24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */,
+				9930DC7F1F4BAAC1DB22B9C47C74305C /* Products */,
+				ED9A79E9F7457EA8DC003A694FF71DF0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		825C2CFE42555E358BD5A299B8694765 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CD3F4C1040F4E6B49F01C6C2A83973EB /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		9930DC7F1F4BAAC1DB22B9C47C74305C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D73A05F36AAF49D57F6E5437B6868D /* libFNAliPay.a */,
+				D100C0C2F9D48652814576C575D7393E /* libPods-FNAliPay_Example.a */,
+				2AA791640070347AB1FF232397C881C3 /* libPods-FNAliPay_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78256413421CCB081286F2B2DCFBE13 /* Pods-FNAliPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C8F5D4BDF2597A2EE3CFF3535A890D1B /* Pods-FNAliPay_Tests-acknowledgements.markdown */,
+				1252F403B60F8D20D69633BAB61976BD /* Pods-FNAliPay_Tests-acknowledgements.plist */,
+				24EBBAA35BD941C38B58026C14F93E04 /* Pods-FNAliPay_Tests-dummy.m */,
+				FBF4473DCC41A6CDF6287151FAE47111 /* Pods-FNAliPay_Tests-frameworks.sh */,
+				34E5DBDC27B6ECA3319E2182A6E51028 /* Pods-FNAliPay_Tests-resources.sh */,
+				68EAF7597D700942D5041753A2303A8D /* Pods-FNAliPay_Tests.debug.xcconfig */,
+				475ADB0CCF33C75ED0F9E7D8D132A1C5 /* Pods-FNAliPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-FNAliPay_Tests";
+			path = "Target Support Files/Pods-FNAliPay_Tests";
+			sourceTree = "<group>";
+		};
+		AE2ED8161CBD427821D1EA36D08AEBF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				947CF5E4877FC067D2E17324705DD41E /* FNAliPay.xcconfig */,
+				50309418D191F25F091A95329000D536 /* FNAliPay-dummy.m */,
+				420F2C25893C59452CC15472F0E74597 /* FNAliPay-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FNAliPay";
+			sourceTree = "<group>";
+		};
+		B60E2B34A005085D6AFC8677C6E53ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF91D6D15E7A0130996FB5B5DA85862 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3A9A428E792F37E44E800E47D7527DD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				655529EEB33EBCA55BA154BD16336B5B /* FNAliPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CD3F4C1040F4E6B49F01C6C2A83973EB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C0CAF66EA29F43BDD06735DC8DE59A1C /* AlipaySDK.bundle */,
+				F713BEA14FCBD710DECE50AF4DBE8194 /* Alixpay.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		ED9A79E9F7457EA8DC003A694FF71DF0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B4981C6CB3E9B5C6C57736406E1DC02 /* Pods-FNAliPay_Example */,
+				A78256413421CCB081286F2B2DCFBE13 /* Pods-FNAliPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F958A51C94028A42B4F2A11B6E985FF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				825C2CFE42555E358BD5A299B8694765 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D18306195C210354F414EC41CD5FED65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A2C689104F681BA2813C9C4C4BAB0F /* FNAliPay.h in Headers */,
+				62105BC438702A765DD9DEDE79BFD2AB /* FNAliPayParaModel.h in Headers */,
+				C5DE8F7FD314922B355A1975C3557968 /* FNAliPayResultModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BF3AFA618DBD23EA81117C32DDE63AB /* Pods-FNAliPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3453370902529D7C7CC82DF570F69D6C /* Build configuration list for PBXNativeTarget "Pods-FNAliPay_Tests" */;
+			buildPhases = (
+				5E5A3A3CFEBABAC2D682A108AB11A31D /* Sources */,
+				9525FADF288191AB868FC510BF5BF32B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D9BEE74A631315ECCEBE6EC1F9F737 /* PBXTargetDependency */,
+			);
+			name = "Pods-FNAliPay_Tests";
+			productName = "Pods-FNAliPay_Tests";
+			productReference = 2AA791640070347AB1FF232397C881C3 /* libPods-FNAliPay_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		52AD8B236A68979F1002E3623B03F28A /* FNAliPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B1C7397396ED12A0FC1C7E47931D6E /* Build configuration list for PBXNativeTarget "FNAliPay" */;
+			buildPhases = (
+				7A549C7CE9FABF35CE0DBFDBC8151DEF /* Sources */,
+				D65381DAD53438D1D730202A96662989 /* Frameworks */,
+				D18306195C210354F414EC41CD5FED65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FNAliPay;
+			productName = FNAliPay;
+			productReference = 05D73A05F36AAF49D57F6E5437B6868D /* libFNAliPay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		750449685377649966D9D01882FA6EF4 /* Pods-FNAliPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EE4F21C566C75C8946C59657AFA299 /* Build configuration list for PBXNativeTarget "Pods-FNAliPay_Example" */;
+			buildPhases = (
+				357B125D2B2E91C55D254D25D9C8ACFA /* Sources */,
+				DBAA98A1314EA0DE44860FF3DD43D32C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F593C27AEC2945668A8333AE2B40D5A /* PBXTargetDependency */,
+			);
+			name = "Pods-FNAliPay_Example";
+			productName = "Pods-FNAliPay_Example";
+			productReference = D100C0C2F9D48652814576C575D7393E /* libPods-FNAliPay_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9930DC7F1F4BAAC1DB22B9C47C74305C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52AD8B236A68979F1002E3623B03F28A /* FNAliPay */,
+				750449685377649966D9D01882FA6EF4 /* Pods-FNAliPay_Example */,
+				3BF3AFA618DBD23EA81117C32DDE63AB /* Pods-FNAliPay_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357B125D2B2E91C55D254D25D9C8ACFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7D595672E6E37714A56B78AFF8886 /* Pods-FNAliPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5A3A3CFEBABAC2D682A108AB11A31D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2348894CC9CFFDBCB7247F989FA585CF /* Pods-FNAliPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A549C7CE9FABF35CE0DBFDBC8151DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B082D22954DFE5CBD23C71C056504E3A /* FNAliPay-dummy.m in Sources */,
+				18D3738F7597A14BAFDA7A3E05DD556E /* FNAliPay.m in Sources */,
+				41B897CA0DE37ECA32214C9D04651610 /* FNAliPayParaModel.m in Sources */,
+				69FE0FF73239B86B0BF7D833837F5129 /* FNAliPayResultModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F593C27AEC2945668A8333AE2B40D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FNAliPay;
+			target = 52AD8B236A68979F1002E3623B03F28A /* FNAliPay */;
+			targetProxy = 30E0A61BBA602F2FB9C68378D2CE6E2E /* PBXContainerItemProxy */;
+		};
+		B2D9BEE74A631315ECCEBE6EC1F9F737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FNAliPay;
+			target = 52AD8B236A68979F1002E3623B03F28A /* FNAliPay */;
+			targetProxy = 4BF9206BAF2446AAD4062852D4429E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F75926640BBA6830163F0B0D646A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01397D865B78DCFD5BD369AF043E3102 /* Pods-FNAliPay_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		291797DABAAF86B84D46E4620D3734CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8737F4679850B0A5BB1439172AA369CB /* Pods-FNAliPay_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40471192EA5CF548F7FEA2E9C244A345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947CF5E4877FC067D2E17324705DD41E /* FNAliPay.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FNAliPay/FNAliPay-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55291C1E993FEEF97112BFB3540CCA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947CF5E4877FC067D2E17324705DD41E /* FNAliPay.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FNAliPay/FNAliPay-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		998980C7A1E2537E9A1C0238580C2E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EAF7597D700942D5041753A2303A8D /* Pods-FNAliPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD21C7B2190B73AE7CE031DD4FEE72D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 475ADB0CCF33C75ED0F9E7D8D132A1C5 /* Pods-FNAliPay_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3453370902529D7C7CC82DF570F69D6C /* Build configuration list for PBXNativeTarget "Pods-FNAliPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998980C7A1E2537E9A1C0238580C2E4C /* Debug */,
+				DD21C7B2190B73AE7CE031DD4FEE72D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EE4F21C566C75C8946C59657AFA299 /* Build configuration list for PBXNativeTarget "Pods-FNAliPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F75926640BBA6830163F0B0D646A70 /* Debug */,
+				291797DABAAF86B84D46E4620D3734CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B1C7397396ED12A0FC1C7E47931D6E /* Build configuration list for PBXNativeTarget "FNAliPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40471192EA5CF548F7FEA2E9C244A345 /* Debug */,
+				55291C1E993FEEF97112BFB3540CCA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
